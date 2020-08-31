@@ -1,0 +1,55 @@
+.output {
+  color: #2f3038;
+  font-size: 16px;
+  height: 400px;
+  width: 100%;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+.Uploader {
+  padding-bottom: 20px;
+}
+
+
+/* Overwrite font */
+.uppy-Root {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Overwrite font resizing */
+.uppy-size--md .uppy-Dashboard-dropFilesTitle {
+    max-width: 300px !important;
+    font-size: 16px !important;
+}
+
+/* Overwrite "powered by" jumping */
+.uppy-size--md .uppy-DashboarAddFiles-info {
+    position: relative !important;
+}
+
+/* Overwrite button styling */
+.uppy-Dashboard-browse {
+  color: #2f3038 !important;
+  text-decoration: underline;
+}
+
+/* Overwrite text color */
+.uppy-Dashboard-dropFilesTitle {
+  color: #2f3038 !important;
+}
+
+@media (max-width: 768px) {
+  .uppy-Dashboard-inner {
+    height: 200px !important;
+  }
+  .output {
+    height: 200px !important;
+  }
+  img {
+    height: 180px;
+  }
+}

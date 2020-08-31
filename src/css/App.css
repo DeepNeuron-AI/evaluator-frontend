@@ -1,0 +1,25 @@
+body {
+  background-color: #FAFAFA;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #FAFAFA;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-radius: 0px
+}
+
+footer {
+    position: absolute;
+    text-align: left;
+    line-height: 16px;
+    font-size: 12px;
+    margin: 12px 24px;
+    /* bottom: 0; */
+    right: 0;
+}
